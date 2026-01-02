@@ -1,0 +1,70 @@
+[07-Dec-2025 14:49:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`endsemproject`.`candidates`, CONSTRAINT `fk_candidates_elections` FOREIGN KEY (`election_id`) REFERENCES `elections` (`election_id`) ON UPDATE CASCADE) in C:\xampp\htdocs\myapis\candidates.php:123
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(123): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 123
+[07-Dec-2025 15:01:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`endsemproject`.`candidates`, CONSTRAINT `fk_candidates_elections` FOREIGN KEY (`election_id`) REFERENCES `elections` (`election_id`) ON UPDATE CASCADE) in C:\xampp\htdocs\myapis\candidates.php:123
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(123): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 123
+[08-Dec-2025 09:44:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`endsemproject`.`candidates`, CONSTRAINT `fk_candidates_elections` FOREIGN KEY (`election_id`) REFERENCES `elections` (`election_id`) ON UPDATE CASCADE) in C:\xampp\htdocs\myapis\candidates.php:123
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(123): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 123
+[08-Dec-2025 10:12:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'danishalikango1@gmail.com' for key 'email' in C:\xampp\htdocs\myapis\candidates.php:168
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(168): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 168
+[08-Dec-2025 10:15:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'danishalikango1@gmail.com' for key 'email' in C:\xampp\htdocs\myapis\candidates.php:168
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(168): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 168
+[18-Dec-2025 07:43:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'dept' in 'field list' in C:\xampp\htdocs\myapis\candidates.php:180
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(180): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 180
+[18-Dec-2025 07:43:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'dept' in 'field list' in C:\xampp\htdocs\myapis\candidates.php:180
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(180): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 180
+[18-Dec-2025 07:43:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'dept' in 'field list' in C:\xampp\htdocs\myapis\candidates.php:180
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(180): mysqli_query(Object(mysqli), 'INSERT INTO can...')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 180
+[24-Dec-2025 12:52:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
+[24-Dec-2025 12:52:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
+[24-Dec-2025 12:52:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
+[24-Dec-2025 12:52:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
+[24-Dec-2025 12:53:10 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
+[24-Dec-2025 12:53:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'whwere c.election_id = 0' at line 12 in C:\xampp\htdocs\myapis\candidates.php:51
+Stack trace:
+#0 C:\xampp\htdocs\myapis\candidates.php(51): mysqli_query(Object(mysqli), 'SELECT \r\n    c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\myapis\candidates.php on line 51
